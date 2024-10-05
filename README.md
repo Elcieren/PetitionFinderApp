@@ -78,7 +78,7 @@
     ```
   </details> 
 
-  details>
+  <details>
     <summary><h2>DetailViewController</h2></summary>
     WKWebView, web içeriğini göstermek için modern ve performanslı bir yöntemdir. UIWebView'ın yerine tercih edilmesi     önerilir.HTML içeriğini yüklemek için loadHTMLString metodu kullanılmıştır. Bu, hızlı ve basit bir yöntemdir ancak daha     karmaşık senaryolar için load metodunu kullanarak harici web sayfaları da yüklenebilir.
     
