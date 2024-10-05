@@ -26,7 +26,7 @@
   </details> 
 
   <details>
-    <summary><h2>eri Çekme ve İşleme</h2></summary>
+    <summary><h2>Veri Çekme ve İşleme</h2></summary>
     Asenkron olarak veri çeker ve JSON verisini çözer.
 
     
