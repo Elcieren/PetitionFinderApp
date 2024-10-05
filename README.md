@@ -61,7 +61,7 @@
 
   <details>
     <summary><h2>Filtreleme İşlevi</h2></summary>
-    filter Metodu: allPetitions dizisindeki her bir Petition nesnesini kontrol eder ve id parametresiyle eşleşenleri filteredPetitions dizisine ekler.Hata Kontrolü: Eğer filtrelenmiş dizi boşsa, kullanıcıya bir hata mesajı gösterilir.Veri Güncelleme: Filtrelenmiş veriler tabloya yüklenir.
+    filter Metodu: allPetitions dizisindeki her bir Petition nesnesini kontrol eder ve id parametresiyle eşleşenleri       filteredPetitions dizisine ekler.Hata Kontrolü: Eğer filtrelenmiş dizi boşsa, kullanıcıya bir hata mesajı gösterilir.Veri      Güncelleme: Filtrelenmiş veriler tabloya yüklenir.
     
     ```
     func filterPetitions(by id: String) {
@@ -80,7 +80,7 @@
 
   details>
     <summary><h2>DetailViewController</h2></summary>
-    WKWebView, web içeriğini göstermek için modern ve performanslı bir yöntemdir. UIWebView'ın yerine tercih edilmesi önerilir.HTML içeriğini yüklemek için loadHTMLString metodu kullanılmıştır. Bu, hızlı ve basit bir yöntemdir ancak daha karmaşık senaryolar için load metodunu kullanarak harici web sayfaları da yüklenebilir.
+    WKWebView, web içeriğini göstermek için modern ve performanslı bir yöntemdir. UIWebView'ın yerine tercih edilmesi     önerilir.HTML içeriğini yüklemek için loadHTMLString metodu kullanılmıştır. Bu, hızlı ve basit bir yöntemdir ancak daha     karmaşık senaryolar için load metodunu kullanarak harici web sayfaları da yüklenebilir.
     
     ```
     override func viewDidLoad() {
@@ -105,18 +105,6 @@
 
     ```
   </details> 
-
-  <details>
-    <summary><h2>Çıkarılan Dersler</h2></summary>
-    Swift ve iOS Geliştirme: Uygulama geliştirirken karşılaşılan teknik zorluklar ve bunların çözümleri.
-    Veri Yönetimi: JSON verisi ile çalışmanın püf noktaları
-  </details> 
-
-  
-
-
-
-   
 
 
 <details>
@@ -147,9 +135,4 @@
         </td>
     </tr>
 </table>
-
-
-
-
-  
   </details> 
