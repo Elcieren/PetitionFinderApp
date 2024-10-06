@@ -13,7 +13,7 @@
 
   <details>
     <summary><h2>Veri Modeli</h2></summary>
-    SON verisindeki her bir petisyonu temsil eder. Codable protokolü sayesinde JSON verisi kolayca çözülür.
+    JSON verisindeki her bir petisyonu temsil eder. Codable protokolü sayesinde JSON verisi kolayca çözülür.
     
     ```
     struct Petition: Codable {
@@ -41,7 +41,7 @@
 
   <details>
     <summary><h2>JSON Çözme</h2></summary>
-    SON verisini Petitions modeline çevirir ve tabloyu günceller.
+    JSON verisini Petitions modeline çevirir ve tabloyu günceller.
     
     ```
     func parse(json: Data) {
