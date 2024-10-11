@@ -58,7 +58,7 @@ class ViewController: UITableViewController {
     
     
     @objc func promtForID(){
-        let ac = UIAlertController(title: "Arama", message: "Aramak istediğiniz dilekçe İD girin", preferredStyle: UIAlertController.Style.alert)
+        let ac = UIAlertController(title: "Aramalar", message: "Aramak istediğiniz dilekçe İD girin", preferredStyle: UIAlertController.Style.alert)
         ac.addTextField()
         
         let submitAction = UIAlertAction(title: "Ara", style: UIAlertAction.Style.default) { [weak self , weak ac] _ in
